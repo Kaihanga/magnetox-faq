@@ -6,6 +6,9 @@ All questions pertain to printer shipping version of 10/1/24 or later unless oth
 
 Please send any questions, comments, suggestion, new FAQs to kaihanga@nulleta.com
 
+# General
+- [What's the size, measurements, etc.?](#whats-the-size-measurements-etc)
+
 # Printer
 - [How to install a Beacon?](#how-to-install-a-beacon)
 
@@ -13,6 +16,17 @@ Please send any questions, comments, suggestion, new FAQs to kaihanga@nulleta.co
 - [How to install Display at top?](#how-to-install-display-at-top)
 
 # Answers... ish
+<a name="whats-the-size-measurements-etc"></a>
+## What's the size, measurements, etc.?
+
+> [!CAUTION]
+> In progress, don't follow
+
+Bed: 300mm x 400mm x ?
+
+Printer: TODO
+
+Enclosure: TODO + feet
 
 <a name="how-to-install-a-beacon"></a>
 ## How to install a Beacon
