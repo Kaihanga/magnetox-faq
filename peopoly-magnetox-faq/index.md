@@ -4,9 +4,11 @@
 
 All questions pertain to printer shipping version of 10/1/24 or later unless otherwise specified.
 
-Where authors provided it only reflects who wrote the FAQ section as all answers have many community contributions.
+Where authors provided it only reflects who wrote the FAQ as all answers have many community contributions.
 
-Please send any questions, comments, suggestion, new FAQs to @kaihanga on Discord or via kaihanga@nulleta.com
+Please send any questions, comments, suggestion, new FAQs to `@kaihanga` on Discord or via kaihanga@nulleta.com
+
+Read your manual, confirm what you're doing, everything's at your own risk.
 
 # General
 - [What's the size, measurements, etc.?](#whats-the-size-measurements-etc)
@@ -42,10 +44,9 @@ Please send any questions, comments, suggestion, new FAQs to @kaihanga on Discor
 <a name="how-to-install-a-beacon"></a>
 ## How to install a Beacon
 
-> [!CAUTION]
-> In progress, don't follow
-
 ###### Author(s): @kaihanga
+
+**WARNING - In progress, proceed with caution**
 
 Notes:
 - Order Beacon Normal, not low-profile, and 10' cable
