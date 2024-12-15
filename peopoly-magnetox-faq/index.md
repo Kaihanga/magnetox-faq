@@ -1,10 +1,10 @@
-# Magneto X Frequently Asked Questions
+# Peopoly Magneto X Frequently Asked Questions
 
-Last Updated: 12/15/24
+Last Updated: 12/16/24
 
 All questions pertain to printer shipping version of 10/1/24 or later unless otherwise specified.
 
-Please send any questions, comments, suggestion, new FAQs to kaihanga@nulleta.com
+Please send any questions, comments, suggestion, new FAQs to @kaihanga on Discord or via kaihanga@nulleta.com
 
 # General
 - [What's the size, measurements, etc.?](#whats-the-size-measurements-etc)
@@ -14,6 +14,14 @@ Please send any questions, comments, suggestion, new FAQs to kaihanga@nulleta.co
 
 # Enclosure
 - [How to install Display at top?](#how-to-install-display-at-top)
+
+# Support & Community
+- [Is there a community to share and learn about other's experience?](#is-there-a-community-to-share-and-learn-about-others-experiences)
+
+## Other Section Ideas
+
+### Filament
+### Printing
 
 # Answers... ish
 <a name="whats-the-size-measurements-etc"></a>
@@ -95,6 +103,9 @@ The cables two cables needed for the display don't easily reach the top.
 	1. Optional - Zip tie cables
 	2. Reattach bottom right panel
 
-## Other Section Ideas 
-### Filament
-### Support
+<a name ="is-there-a-community-to-share-and-learn-about-others-experiences"></a>
+## Is there a community to share and learn about other's experience?
+
+There's an "official" discord with an active community. [Click here for an invitation](https://discord.gg/rVUKaBAGKC).
+
+[Information from Peopoly about the community](https://peopoly.net/blogs/news/join-peopoly-discord-community)
