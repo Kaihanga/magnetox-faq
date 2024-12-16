@@ -48,6 +48,8 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 <a name="setup-guides-are-wrong-or-dont-make-sense"></a>
 ## Setup Guides are wrong or don't make sense?
 
+###### Author(s): @kaihanga
+
 The Setup Guides, such as for the [Printer](https://wiki.peopoly.net/en/magneto/magneto-x/setup-guide), [JetStream](https://wiki.peopoly.net/en/magneto/magneto-x/install-jetstream), and [Enclosure](https://wiki.peopoly.net/en/magneto/magneto-x/enclosure-setup-guide-q) don't match what you recevied or they're wrong or they don't make sense.
 
 The setup guides represent the state of the printer back when it was first introduced and - for the most part - haven't been updated since, including to accomodate all the improvements.
