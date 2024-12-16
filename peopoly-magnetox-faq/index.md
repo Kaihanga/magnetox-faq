@@ -14,6 +14,7 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 
 # General
 - [What's the size, measurements, etc.?](#whats-the-size-measurements-etc)
+- [Setup Guides are wrong or don't make sense?](#setup-guides-are-wrong-or-dont-make-sense)
 
 # Printer
 - [How to install a Beacon?](#how-to-install-a-beacon)
@@ -43,6 +44,24 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 - Measurements includes slack for filament feed line
 
 **Enclosure**: add 4.5cm to height and 25cm for front door access   
+
+<a name="setup-guides-are-wrong-or-dont-make-sense"></a>
+## Setup Guides are wrong or don't make sense?
+
+The Setup Guides, such as for the [Printer](https://wiki.peopoly.net/en/magneto/magneto-x/setup-guide), [JetStream](https://wiki.peopoly.net/en/magneto/magneto-x/install-jetstream), and [Enclosure](https://wiki.peopoly.net/en/magneto/magneto-x/enclosure-setup-guide-q) don't match what you recevied or they're wrong or they don't make sense.
+
+The setup guides represent the state of the printer back when it was first introduced and - for the most part - haven't been updated since, including to accomodate all the improvements.
+
+Here are various notes for each, please message the author with any others inconsistencies.
+
+### Printer
+- The parts kit is under the bed rather than over it
+- Wifi antennas a traditional rather than flat style
+- Parts kit doesn't include a PTFE tube, rather it's coiled around the toolhead
+- Various pictures throughout
+### JetStream
+- Installs on right side rather than left as that's where four screw holds are
+- Power & control connection is also on right rather than left side, and is unlabeled
 
 <a name="how-to-install-a-beacon"></a>
 ## How to install a Beacon
