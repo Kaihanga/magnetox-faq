@@ -1,12 +1,14 @@
 # Peopoly Magneto X Frequently Asked Questions
 
-###### Last Updated: 12/16/24
+###### Last Updated: 12/15/24
 
-All questions pertain to printer shipping version of 10/1/24 or later unless otherwise specified.
+All answers pertain to printer shipping version of 10/1/24 or later unless otherwise specified.
 
-Where authors provided it only reflects who wrote the FAQ as all answers have many community contributions.
+Where authors are provided it only reflects who wrote the FAQ as all answers have many community contributions.
 
 Please send any questions, comments, suggestion, new FAQs to `@kaihanga` on Discord or via kaihanga@nulleta.com
+
+An [Official FAQ](https://wiki.peopoly.net/en/magneto/magneto-x/magneto-x-faq) is also available.
 
 Read your manual, confirm what you're doing, everything's at your own risk.
 
@@ -16,6 +18,7 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 # Printer
 - [How to install a Beacon?](#how-to-install-a-beacon)
 - [How to SSH into the printer?](#how-to-ssh-into-the-printer)
+- [What and how to lubricate?](#what-and-how-to-lubricate)
 
 # Enclosure
 - [How to install Display at top?](#how-to-install-display-at-top)
@@ -47,6 +50,8 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 ###### Author(s): @kaihanga
 
 **WARNING - In progress, proceed with caution**
+
+What's a [Beacon](https://beacon3d.com/)?
 
 Notes:
 - Order Beacon Normal, not low-profile, and 10' cable
@@ -94,10 +99,33 @@ The default username is "pi" and the password is "armbian".
 
 `ssh pi@<your ip address>`
 
+<a name="what-and-how-to-lubricate"></a>
+## What and how to lubricate?
+
+###### Author(s): @kaihanga
+
+Peopoly's [Linear Guide Maintenance](https://wiki.peopoly.net/en/magneto/magneto-x/linear-guide-maintenance).
+
+Lubricate every 4 - 6 weeks is necessary with some evidence it helps with VFAs, Ringing, etc. 
+
+Use an NLGI 2 grease such as [Mobil Polyrex EP2](https://www.amazon.com/Mobilux-Grease-NLGI-13-7-oz/dp/B01N191WZE) Amazon link, not affiliate.
+- [NLGI](https://en.wikipedia.org/wiki/NLGI_consistency_number) refers to the consistency, in this case like peanut butter.
+
+Maintenance tipsL [Lubrication Basics - Keep your 3D printer running smooth and quiet](https://www.youtube.com/watch?v=UYvhYjkBFTY).
+
+1. Ensure printer is powered off
+2. Inspect the rails, if rust found, remove with WD-40
+3. Using a gloved hand, smooth it onto both side of all the rails:
+   1. 2 on top for the Y axis
+   2. 1 under the gantry for the X axis
+   3. All 4 vertical Z axis
+4. Manually move the toolhead back and forth in both X & Y axes to ensure even distribution of the grease along the entire rail.
+5. Clean up any excees on the toolhead
+
 <a name="how-to-install-display-at-top"></a>
 ## How to install Display at top?
 
-Author(s): @kaihanga
+###### Author(s): @kaihanga
 
 The cables two cables needed for the display don't easily reach the top.
 
