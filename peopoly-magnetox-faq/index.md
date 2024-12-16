@@ -59,6 +59,7 @@ Here are various notes for each, please message the author with any others incon
 - Wifi antennas a traditional rather than flat style
 - Parts kit doesn't include a PTFE tube, rather it's coiled around the toolhead
 - Various pictures throughout
+
 ### JetStream
 - Installs on right side rather than left as that's where the four needed screw holes are
 - Power & control connection is also under the bottom right panel rather than left side and is unlabeled
