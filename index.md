@@ -1,0 +1,1 @@
+# [FAQ for Peopoly's Magneto X 3D Printer](/peopoly-magnetox-faq/)
