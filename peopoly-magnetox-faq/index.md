@@ -20,7 +20,8 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 - [How to install a Beacon?](#how-to-install-a-beacon)
 - [How to SSH into the printer?](#how-to-ssh-into-the-printer)
 - [What and how to lubricate?](#what-and-how-to-lubricate)
-- [How to install the Nozzle Wiper](#how-to-install-the-nozzle-wiper)
+- [How to install the Nozzle Wiper?](#how-to-install-the-nozzle-wiper)
+- [How to lower the print bed after a print?](#how-to-lower-the-print-bed-after-a-print)
 
 # Enclosure
 - [Enclosure installation tips](#enclosure-installation-tips)
@@ -150,6 +151,9 @@ Maintenance tipsL [Lubrication Basics - Keep your 3D printer running smooth and 
 4. Manually move the toolhead back and forth in both X & Y axes to ensure even distribution of the grease along the entire rail.
 5. Clean up any excees on the toolhead
 
+##### References
+["If the grease isn't oozing out and making a mess then you're not using enough."](https://discord.com/channels/1158578009121501267/1246637611674636379/1282151638865547264)
+
 <a name="how-to-install-the-nozzle-wiper"></a>
 ## How to install the Nozzle Wiper
 
@@ -164,6 +168,31 @@ The [nozzle wiper installation docs](https://wiki.peopoly.net/en/magneto/magneto
    1. Copy & Paste the GCODE into the macros.cfg file
    2. Replace the two x, y coordinates as the installation directs
    3. Add the `MAG_WIPE_NOZZLE` macro near the bottom of the `PRINT_START` macro, before `LINE_PURGE`
+
+<a name="how-to-lower-the-print-bed-after-a-print"></a>
+## How to lower the print bed after a print?
+
+###### Author(s): @kaihanga
+
+Replace the `PRINT_END` macro in `macros.cfg` with the following...
+```
+[gcode_macro PRINT_END]
+variable_max_z: 300  # Set this to your printer's max Z height
+gcode:
+  G91                              # Switch to relative positioning
+  G1 Z5 F600                       # Raise the nozzle by 5mm (lower bed by 5mm)
+  G1 E-5 F300                      # Retract filament
+  G90                              # Switch back to absolute positioning
+  G1 X150 Y10 F12000               # Move nozzle to park position
+  M104 S0                          # Turn off hotend
+  M140 S0                          # Turn off bed heater
+  M106 S0                          # Turn off part cooling fan
+  {% set target_z = ((printer.toolhead.position.z + max_z) / 2)|round(1) %}
+  G1 Z{target_z} F600              # Move bed to halfway point between current Z and max Z
+  UPDATE_DELAYED_GCODE ID=delay_disable_motor DURATION=30  # Delay motor disable
+```
+##### References
+["This is tested to and works on my V0.  I changed the values here to match the Magneto:"](https://discord.com/channels/1158578009121501267/1246637611674636379/1318281835536580703)
 
 <a name="enclosure-installation-tips"></a>
 ## Enclosure installation tips
