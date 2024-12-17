@@ -23,6 +23,7 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 - [How to install the Nozzle Wiper](#how-to-install-the-nozzle-wiper)
 
 # Enclosure
+- [Enclosure installation tips](#enclosure-installation-tips)
 - [How to install Display at top?](#how-to-install-display-at-top)
 
 # Support & Community
@@ -163,6 +164,20 @@ The [nozzle wiper installation docs](https://wiki.peopoly.net/en/magneto/magneto
    1. Copy & Paste the GCODE into the macros.cfg file
    2. Replace the two x, y coordinates as the installation directs
    3. Add the `MAG_WIPE_NOZZLE` macro near the bottom of the `PRINT_START` macro, before `LINE_PURGE`
+
+<a name="enclosure-installation-tips"></a>
+## Enclosure installation tips
+
+###### Author(s): @kaihanga
+
+- Bring your own allen key set
+  - You'll be installing many screws and the keys included witrh the printer aren't fun to use for extended periods
+  - Something like the [SHOWPIN Electronics Precision Screwdriver Set](https://www.amazon.com/gp/product/B0CQC488VR) or the [iFixit Pro Tech Toolkit](https://www.amazon.com/gp/product/B01GF0KV6G), both are Amazon links w/no affiliate.
+- Try to position panels with the text describing the part number facing inward, at the bottom
+  - It's not always possible
+- Peel back the scratch protection to only what's needed to access the screw holes until you're done
+- Start printing the reinforcements
+  - Suggest heat deflective filament, as it's inside. The PETG-CF that comes with the printer should be fine.
 
 <a name="how-to-install-display-at-top"></a>
 ## How to install Display at top?
