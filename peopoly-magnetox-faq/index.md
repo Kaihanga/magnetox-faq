@@ -3,9 +3,10 @@
 
 ###### Last Updated: 12/17/24
 
-All answers pertain to printer shipping version of 10/1/24 or later unless otherwise specified.
-
-Where authors are provided it only reflects who wrote the FAQ as all answers have many community contributions, with references provided when possible.
+# Notes
+- All answers pertain to printer shipping version of 10/1/24 or later unless otherwise specified.
+- Where authors are provided it only reflects who wrote the FAQ as all answers have many community contributions, with references provided when possible.
+- All outbound links, such as to Amazon, are unaffiliated. 
 
 Please send any questions, comments, suggestion, new FAQs to `@kaihanga` on Discord or via [kaihanga@nulleta.com](mailto:kaihanga@nulleta.com).
 
@@ -138,10 +139,15 @@ Peopoly's [Linear Guide Maintenance](https://wiki.peopoly.net/en/magneto/magneto
 
 Lubricate every 4 - 6 weeks is necessary with some evidence it helps with VFAs, Ringing, etc. 
 
-Use an NLGI 2 grease such as [Mobil Polyrex EP2](https://www.amazon.com/Mobilux-Grease-NLGI-13-7-oz/dp/B01N191WZE) Amazon link, not affiliate.
+Use an NLGI 2 grease such as [Mobil Polyrex EP2](https://www.amazon.com/Mobilux-Grease-NLGI-13-7-oz/dp/B01N191WZE)
 - [NLGI](https://en.wikipedia.org/wiki/NLGI_consistency_number) refers to the consistency, in this case like peanut butter.
 
-Maintenance tipsL [Lubrication Basics - Keep your 3D printer running smooth and quiet](https://www.youtube.com/watch?v=UYvhYjkBFTY).
+Recommended [syringes](https://www.amazon.com/Wisdom-Syringe-Irrigation-Syringes-Measure/dp/B09X9L5GVN), for getting into tighter places, such as the X carraige.
+
+##### References
+- ["I'm using Mobilux EP2 based on recommendations and what some folks selling linear rails were selling"](https://discord.com/channels/1158578009121501267/1246637611674636379/1282144149436502077)
+
+General maintenance tips: [Lubrication Basics - Keep your 3D printer running smooth and quiet](https://www.youtube.com/watch?v=UYvhYjkBFTY).
 
 1. Ensure printer is powered off
 2. Inspect the rails, if rust found, remove with WD-40
@@ -202,7 +208,7 @@ gcode:
 
 - Bring your own allen key set
   - You'll be installing many screws and the keys included witrh the printer aren't fun to use for extended periods
-  - Something like the [SHOWPIN Electronics Precision Screwdriver Set](https://www.amazon.com/gp/product/B0CQC488VR) or the [iFixit Pro Tech Toolkit](https://www.amazon.com/gp/product/B01GF0KV6G), both are Amazon links w/no affiliate.
+  - Something like the [SHOWPIN Electronics Precision Screwdriver Set](https://www.amazon.com/gp/product/B0CQC488VR) or the [iFixit Pro Tech Toolkit](https://www.amazon.com/gp/product/B01GF0KV6G)
 - Try to position panels with the text describing the part number facing inward, at the bottom
   - It's not always possible
 - Peel back the scratch protection to only what's needed to access the screw holes until you're done
