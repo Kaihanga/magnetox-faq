@@ -1,3 +1,4 @@
+{% raw %}
 # Peopoly Magneto X Frequently Asked Questions
 
 ###### Last Updated: 12/17/24
@@ -241,3 +242,4 @@ The cables two cables needed for the display don't easily reach the top.
 There's an "official" discord with an active community. [Click here for an invitation](https://discord.gg/rVUKaBAGKC).
 
 [Information from Peopoly about the community](https://peopoly.net/blogs/news/join-peopoly-discord-community)
+{% endraw %}
