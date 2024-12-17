@@ -39,13 +39,15 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 
 **Bed**: 400mm x 300mm x 300mm
 
-**Printer**: 58cm x 54cm x 70cm (length, width, height)
+**Printer**: 60.5cm x 54cm x 70cm (length, width, height)
 - Add 26cm on left side (printer facing you) for filament spool & power cable
 - Measurements includes feet and slack height for the filament feed line
 - Front display adds 6.5cm to height and 4cm to width
 
 **Enclosure**: Total of 79cm with 25cm for front door(s) access
 - Same additions for the display, if mounted on top, otherwise for regular position just add for width
+
+**Jetstream Side Cooling**: Increases printer length to 68cm (adds 7.5cm)
 
 <a name="setup-guides-are-wrong-or-dont-make-sense"></a>
 ## Setup Guides are wrong or don't make sense?
