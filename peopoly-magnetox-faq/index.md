@@ -4,7 +4,7 @@
 
 All answers pertain to printer shipping version of 10/1/24 or later unless otherwise specified.
 
-Where authors are provided it only reflects who wrote the FAQ as all answers have many community contributions.
+Where authors are provided it only reflects who wrote the FAQ as all answers have many community contributions, with references provided when possible.
 
 Please send any questions, comments, suggestion, new FAQs to `@kaihanga` on Discord or via kaihanga@nulleta.com
 
