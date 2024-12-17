@@ -20,6 +20,7 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 - [How to install a Beacon?](#how-to-install-a-beacon)
 - [How to SSH into the printer?](#how-to-ssh-into-the-printer)
 - [What and how to lubricate?](#what-and-how-to-lubricate)
+- [How to install the Nozzle Wiper](#how-to-install-the-nozzle-wiper)
 
 # Enclosure
 - [How to install Display at top?](#how-to-install-display-at-top)
@@ -147,6 +148,21 @@ Maintenance tipsL [Lubrication Basics - Keep your 3D printer running smooth and 
    3. All 4 vertical Z axis
 4. Manually move the toolhead back and forth in both X & Y axes to ensure even distribution of the grease along the entire rail.
 5. Clean up any excees on the toolhead
+
+<a name="how-to-install-the-nozzle-wiper"></a>
+## How to install the Nozzle Wiper
+
+###### Author(s): @kaihanga
+
+The [nozzle wiper installation docs](https://wiki.peopoly.net/en/magneto/magneto-x/nozzle-wiper) suggest placing the felt before moving the toolhead to align. Unfortunately, the toolhead cannot move as far X as suggested due to the part cooling fan. This may be due to the docs being written before the present fan design.
+
+1. Follow the installation
+   1. EXCEPT do the toolhead move first then place the felt
+   2. Note the two x & y coordinate sets
+2. In the macros.cfg file
+   1. Copy & Paste the GCODE into the macros.cfg file
+   2. Replace the two x, y coordinates as the installation directs
+   3. Add the `MAG_WIPE_NOZZLE` macro near the bottom of the `PRINT_START` macro, before `LINE_PURGE`
 
 <a name="how-to-install-display-at-top"></a>
 ## How to install Display at top?
