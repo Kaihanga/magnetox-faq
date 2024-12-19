@@ -24,6 +24,7 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 - [What and how to lubricate?](#what-and-how-to-lubricate)
 - [How to install the Nozzle Wiper?](#how-to-install-the-nozzle-wiper)
 - [How to lower the print bed after a print?](#how-to-lower-the-print-bed-after-a-print)
+- [Received a timeout in Orcaslicer when sending a print?](#received-a-timeout-in-orcaslicer-when-sending-a-print)
 
 # Enclosure
 - [Enclosure installation tips](#enclosure-installation-tips)
@@ -203,6 +204,33 @@ gcode:
 ```
 ##### References
 ["This is tested to and works on my V0.  I changed the values here to match the Magneto:"](https://discord.com/channels/1158578009121501267/1246637611674636379/1318281835536580703)
+
+<a name="received-a-timeout-in-orcaslicer-when-sending-a-print"></a>
+## Received a timeout in Orcaslicer when sending a print?
+
+You received the following timeout error when sending a print, which may have still started. 
+![Orcaslicer timeout error](images/received-a-timeout-in-orcaslicer-when-sending-a-print-1.png)
+
+The Magneto X is closing the Orcaslicer connection before fully processing and accepting the print request.
+
+To fix, a network component of the Magneto X needs to be adjusted to allow the printer to take longer to process the print request. The catch is that this isn't a one-size-fix-all solutoon as the timeout period may need to be further adjusted for larger and larger print sizes. It also can't be made excessively big, or even infinite, as that creates other issues. The suggestion is to start with the recommendation below, increasing 50% each time further.
+
+This improvement requires SSH access.
+
+1. SSH into the printer
+2. Edit nginx's settings, add the following 4 lines to the bottom of the ``http`` section of /etc/nginx/nginx.conf, such as ``sudo vi /etc/nginx/nginx.conf``
+   1. proxy_send_timeout 500s;
+   2. proxy_read_timeout 500s;
+   3. fastcgi_send_timeout 500s;
+   4. fastcgi_read_timeout 500s;
+3. Restart nginx, ``sudo systemctl restart nginx``
+4. Confirm nginx is running, ``sudo systemctl status nginx``
+   1. Should see ``active (running)`` in the middle
+
+##### References
+["If the plate upload size is too big I get that error. It looks like you can change some config settings..."](https://discord.com/channels/1158578009121501267/1167525280756277268/1307806171637354616)
+
+["It's not an issue with orcaslicer, but with nginx on the printer."](https://github.com/SoftFever/OrcaSlicer/issues/857#issuecomment-1569493181)
 
 <a name="enclosure-installation-tips"></a>
 ## Enclosure installation tips
