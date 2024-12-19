@@ -32,8 +32,11 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 # Support & Community
 - [Is there a community to share and learn about other's experience?](#is-there-a-community-to-share-and-learn-about-others-experiences)
 
+# Filament Profiles
+- [PET-CF Profile](#pet-cf-profile)
+
 # Other Section Ideas
-### Filament
+
 ### Printing (common VFA, Ringing suggestions, etc.)
 
 # Answers... ish
@@ -248,4 +251,19 @@ The cables two cables needed for the display don't easily reach the top.
 There's an "official" discord with an active community. [Click here for an invitation](https://discord.gg/rVUKaBAGKC).
 
 [Information from Peopoly about the community](https://peopoly.net/blogs/news/join-peopoly-discord-community)
+
+<a name="pet-cf-profile"></a>
+## PET-CF Profile
+
+###### Author(s): @kaihanga
+- Nozzle temp: 300
+- Build plate temp: 75
+- Max volumetric: 30
+- Flow ratio: 0.9
+- Pressure advance: 0.022
+- Gluestick: Required
+
+##### References
+["Thanks for a reminder. My max volumetric is 30, flow ratio is .9, PA is 0.022..."](https://discord.com/channels/1158578009121501267/1167525094839562321/1319017426603479060)
+
 {% endraw %}
