@@ -213,7 +213,7 @@ You received the following timeout error when sending a print, which may have st
 
 The Magneto X is closing the Orcaslicer connection before fully processing and accepting the print request.
 
-To fix, a network component of the Magneto X needs to be adjusted to allow the printer to take longer to process the print request. The catch is that this isn't a one-size-fix-all solutoon as the timeout period may need to be further adjusted for larger and larger print sizes. It also can't be made excessively big, or even infinite, as that creates other issues. The suggestion is to start with the recommendation below, increasing 50% each time further.
+To fix, a network component of the Magneto X needs to be adjusted to allow the printer to take longer to process the print request. The catch is that this isn't a one-size-fix-all solutoon as the timeout period may need to be further adjusted for larger and larger print sizes. It also can't be made excessively big, or even infinite, as that creates other issues. The suggestion is to start with the recommendation below, increasing to as much as 1600s as needed.
 
 This improvement requires SSH access.
 
