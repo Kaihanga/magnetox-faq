@@ -1,7 +1,7 @@
 {% raw %}
 # Peopoly Magneto X Frequently Asked Questions
 
-###### Last Updated: 12/17/24
+###### Last Updated: 12/22/24
 
 # Notes
 - All answers pertain to printer shipping version of 10/1/24 or later unless otherwise specified.
