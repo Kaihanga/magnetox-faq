@@ -25,6 +25,7 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 - [How to install the Nozzle Wiper?](#how-to-install-the-nozzle-wiper)
 - [How to lower the print bed after a print?](#how-to-lower-the-print-bed-after-a-print)
 - [Received a timeout in Orcaslicer when sending a print?](#received-a-timeout-in-orcaslicer-when-sending-a-print)
+- [How to fix Pause and Resume](#how-to-fix-pause-and-resume)
 
 # Enclosure
 - [Enclosure installation tips](#enclosure-installation-tips)
@@ -218,7 +219,7 @@ To fix, a network component of the Magneto X needs to be adjusted to allow the p
 This improvement requires SSH access.
 
 1. SSH into the printer
-2. Edit nginx's settings, add the following 4 lines to the bottom of the ``http`` section of /etc/nginx/nginx.conf, such as ``sudo vi /etc/nginx/nginx.conf``
+2. Edit nginx's settings, add the following 4 lines to the bottom of the ``http`` section of /etc/nginx/nginx.conf, such as ``sudo nano /etc/nginx/nginx.conf``
    1. proxy_send_timeout 500s;
    2. proxy_read_timeout 500s;
    3. fastcgi_send_timeout 500s;
@@ -231,6 +232,23 @@ This improvement requires SSH access.
 ["If the plate upload size is too big I get that error. It looks like you can change some config settings..."](https://discord.com/channels/1158578009121501267/1167525280756277268/1307806171637354616)
 
 ["It's not an issue with orcaslicer, but with nginx on the printer."](https://github.com/SoftFever/OrcaSlicer/issues/857#issuecomment-1569493181)
+
+<a name="how-to-fix-pause-and-resume"></a>
+## How to fix Pause and Resume
+
+###### Author(s): @kaihanga
+
+The Pause & Resume funtionality's broken due to there being multiple defitions of the ```[gcode_macro PAUSE]``` and ```[gcode_macro RESUME]``` macros across the ```macros.cfg``` and ```mainsail.cfg``` files. The ones in ```mainsale.cfg``` need to be commented out as those in ```macros.cfg``` are correct.
+
+This file cannot be edited by the Klipper web interface as it's read-only.
+
+1. SSH into the printer
+2. ```nano mainsail-config/mainsail.cfg```
+3. Comment out, that is put a ```#``` in front of every line, of the ```[gcode_macro PAUSE]``` and ```[gcode_macro RESUME]``` macros. That is every line from those macros through to the next ```[gcode_macro ...]``` line.
+4. Exit and save the file 
+
+##### References
+["Wow. Downloaded mailsail, commented out the pause and resume and then uploaded it ..."](https://discord.com/channels/1158578009121501267/1293894304711970878/1320213727114563646)
 
 <a name="enclosure-installation-tips"></a>
 ## Enclosure installation tips
