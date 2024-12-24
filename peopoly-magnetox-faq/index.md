@@ -26,6 +26,7 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 - [How to lower the print bed after a print?](#how-to-lower-the-print-bed-after-a-print)
 - [Received a timeout in Orcaslicer when sending a print?](#received-a-timeout-in-orcaslicer-when-sending-a-print)
 - [How to fix Pause and Resume](#how-to-fix-pause-and-resume)
+- [How to backup the printer configuration and macros?](#how-to-backup-the-printer-configuration-and-macros)
 
 # Enclosure
 - [Enclosure installation tips](#enclosure-installation-tips)
@@ -255,6 +256,22 @@ This file cannot be edited by the Klipper web interface as it's read-only.
 
 ##### References
 ["Wow. Downloaded mailsail, commented out the pause and resume and then uploaded it ..."](https://discord.com/channels/1158578009121501267/1293894304711970878/1320213727114563646)
+
+<a name="how-to-backup-the-printer-configuration-and-macros"></a>
+## How to backup the printer configuration and macros?
+
+###### Author(s): @kaihanga
+
+Many fixes and improvements referenced here as well as those you find on the Peopoly Discord involve editing the printer's settings and macros. Backing them up ensure you don't lose that work.
+
+Here are a couple of videos on how to do so. Watching both is recommended as they provide different perspectives.
+
+Modbot - [This Klipper Add-on Could Save You! (Klipper-Backup)](https://www.youtube.com/watch?v=47qV9BE2n_Y)
+
+Minimal 3DP - [Klipper Backups! A New Guide to Using Klipper Macros to Backup Your Configuration Files](https://www.youtube.com/watch?v=J4_dlCtZY48)
+
+##### References
+[I'd recommend watching both as they give overlapping but slightly different insights.](https://discord.com/channels/1158578009121501267/1246637611674636379/1320989736336359456)
 
 <a name="enclosure-installation-tips"></a>
 ## Enclosure installation tips
