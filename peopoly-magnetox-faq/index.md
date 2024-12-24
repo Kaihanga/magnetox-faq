@@ -1,10 +1,10 @@
 {% raw %}
 # Peopoly Magneto X Frequently Asked Questions
 
-###### Last Updated: 12/22/24
+###### Last Updated: 12/23/24
 
 # Notes
-- All answers pertain to printer shipping version of 10/1/24 or later unless otherwise specified.
+- All answers pertain to printer shipping version of 10/1/24 and firmware v1.1.4 or later unless otherwise specified.
 - Where authors are provided it only reflects who wrote the FAQ as all answers have many community contributions, with references provided when possible.
 - All outbound links, such as to Amazon, are unaffiliated. 
 
@@ -131,9 +131,15 @@ Notes:
 **Config examples**
 <a name="how-to-ssh-into-the-printer"></a>
 ## How to SSH into the printer?
+SSH access is needed for a number of low-level tasks such as installing addons.
+
+Open a terminal and `ssh pi@<your Magneto X IP address>`
+
 The default username is "pi" and the password is "armbian".
 
-`ssh pi@<your ip address>`
+##### References
+
+[Guides to modify the timezone](https://wiki.peopoly.net/en/magneto/magneto-x/mainsail-os-timezone-setting)
 
 <a name="what-and-how-to-lubricate"></a>
 ## What and how to lubricate?
