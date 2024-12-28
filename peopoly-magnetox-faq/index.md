@@ -197,7 +197,6 @@ The [nozzle wiper installation docs](https://wiki.peopoly.net/en/magneto/magneto
 
 Replace the `PRINT_END` macro in `macros.cfg` with the following...
 ```
-{% raw %}
 [gcode_macro PRINT_END]
 variable_max_z: 300  # Set this to your printer's max Z height
 gcode:
@@ -212,7 +211,6 @@ gcode:
   {% set target_z = ((printer.toolhead.position.z + max_z) / 2)|round(1) %}
   G1 Z{target_z} F600              # Move bed to halfway point between current Z and max Z
   UPDATE_DELAYED_GCODE ID=delay_disable_motor DURATION=30  # Delay motor disable
-{% endraw %}
 ```
 ##### References
 ["This is tested to and works on my V0.  I changed the values here to match the Magneto:"](https://discord.com/channels/1158578009121501267/1246637611674636379/1318281835536580703)
