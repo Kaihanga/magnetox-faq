@@ -1,7 +1,6 @@
-{% raw %}
 # Peopoly Magneto X Frequently Asked Questions
 
-###### Last Updated: 12/23/24
+###### Last Updated: {{ "now" | date: "%Y-%m-%d %H:%M" }}
 
 # Notes
 - All answers pertain to printer shipping version of 10/1/24 and firmware v1.1.4 or later unless otherwise specified.
@@ -339,7 +338,7 @@ There's an "official" discord with an active community. [Click here for an invit
 ["Thanks for a reminder. My max volumetric is 30, flow ratio is .9, PA is 0.022..."](https://discord.com/channels/1158578009121501267/1167525094839562321/1319017426603479060)
 
 <a name="rails-and-carriages"></a>
-## - Rails and Carriages
+## Rails and Carriages
 
 ###### Author(s): @kaihanga
 
@@ -357,5 +356,3 @@ There's an "official" discord with an active community. [Click here for an invit
 - [X is MGN12H Y is MGN12C.](https://discord.com/channels/1158578009121501267/1246637611674636379/1322363103677124618)
 - [MP rails are 👌](https://discord.com/channels/1158578009121501267/1246637611674636379/1322323794442059797)
 - [Again, X sees a lot of forces, a lot of abuse, a lot more riding on that one bearing and rail](https://discord.com/channels/1158578009121501267/1246637611674636379/1322325226444423240)
-
-{% endraw %}
