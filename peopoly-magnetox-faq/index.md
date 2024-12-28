@@ -38,6 +38,9 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 # Filament Profiles
 - [PET-CF Profile](#pet-cf-profile)
 
+# Parts
+- [Rails and Carriages](#rails-and-carriages)
+
 # Other Section Ideas
 
 ### Printing (common VFA, Ringing suggestions, etc.)
@@ -334,5 +337,25 @@ There's an "official" discord with an active community. [Click here for an invit
 
 ##### References
 ["Thanks for a reminder. My max volumetric is 30, flow ratio is .9, PA is 0.022..."](https://discord.com/channels/1158578009121501267/1167525094839562321/1319017426603479060)
+
+<a name="rails-and-carriages"></a>
+## - Rails and Carriages
+
+###### Author(s): @kaihanga
+
+**Dimensions**
+- X is 400mm MGN12H with 1 rail and 1 carriage
+- Y is 500mm MGN12C with 2 rails and 4 carriages
+
+**Misc.**
+- Medium load is preferred
+- Motion Perfect is preferred but costly and Y length is difficult to find
+- Berserker's great
+- X takes most abuse so prefer that 
+
+##### References
+- [X is MGN12H Y is MGN12C.](https://discord.com/channels/1158578009121501267/1246637611674636379/1322363103677124618)
+- [MP rails are 👌](https://discord.com/channels/1158578009121501267/1246637611674636379/1322323794442059797)
+- [Again, X sees a lot of forces, a lot of abuse, a lot more riding on that one bearing and rail](https://discord.com/channels/1158578009121501267/1246637611674636379/1322325226444423240)
 
 {% endraw %}
