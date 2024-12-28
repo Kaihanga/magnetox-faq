@@ -132,7 +132,7 @@ Notes:
 9. Reattach bottom right panel
 
 **Config examples**
-<a name="how-to-ssh-into-the-printer"></a>
+
 ## How to SSH into the printer?
 SSH access is needed for a number of low-level tasks such as installing addons.
 
