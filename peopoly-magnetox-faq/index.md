@@ -43,7 +43,7 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 ### Printing (common VFA, Ringing suggestions, etc.)
 
 # Answers... ish
-<a name="whats-the-size-measurements-etc"></a>
+
 ## What's the size, measurements, etc.?
 
 ###### Author(s): @kaihanga
@@ -60,7 +60,6 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 
 **Jetstream Side Cooling**: Increases printer length to 68cm (adds 7.5cm)
 
-<a name="setup-guides-are-wrong-or-dont-make-sense"></a>
 ## Setup Guides are wrong or don't make sense?
 
 ###### Author(s): @kaihanga
@@ -81,7 +80,6 @@ Here are various notes for each, please message the author with any others incon
 - Installs on right side rather than left as that's where the four needed screw holes are
 - Power & control connection is also under the bottom right panel rather than left side and is unlabeled
 
-<a name="how-to-install-a-beacon"></a>
 ## How to install a Beacon
 
 ###### Author(s): @kaihanga
@@ -142,7 +140,6 @@ The default username is "pi" and the password is "armbian".
 
 [Guides to modify the timezone](https://wiki.peopoly.net/en/magneto/magneto-x/mainsail-os-timezone-setting)
 
-<a name="what-and-how-to-lubricate"></a>
 ## What and how to lubricate?
 
 ###### Author(s): @kaihanga
@@ -173,7 +170,6 @@ General maintenance tips: [Lubrication Basics - Keep your 3D printer running smo
 ##### References
 ["If the grease isn't oozing out and making a mess then you're not using enough."](https://discord.com/channels/1158578009121501267/1246637611674636379/1282151638865547264)
 
-<a name="how-to-install-the-nozzle-wiper"></a>
 ## How to install the Nozzle Wiper
 
 ###### Author(s): @kaihanga
@@ -188,7 +184,6 @@ The [nozzle wiper installation docs](https://wiki.peopoly.net/en/magneto/magneto
    2. Replace the two x, y coordinates as the installation directs
    3. Add the `MAG_WIPE_NOZZLE` macro near the bottom of the `PRINT_START` macro, before `LINE_PURGE`
 
-<a name="how-to-lower-the-print-bed-after-a-print"></a>
 ## How to lower the print bed after a print?
 
 ###### Author(s): @kaihanga
@@ -216,7 +211,6 @@ gcode:
 ##### References
 ["This is tested to and works on my V0.  I changed the values here to match the Magneto:"](https://discord.com/channels/1158578009121501267/1246637611674636379/1318281835536580703)
 
-<a name="received-a-timeout-in-orcaslicer-when-sending-a-print"></a>
 ## Received a timeout in Orcaslicer when sending a print?
 
 You received the following timeout error when sending a print, which may have still started. 
@@ -243,7 +237,6 @@ This improvement requires SSH access.
 
 ["It's not an issue with orcaslicer, but with nginx on the printer."](https://github.com/SoftFever/OrcaSlicer/issues/857#issuecomment-1569493181)
 
-<a name="how-to-fix-pause-and-resume"></a>
 ## How to fix Pause and Resume
 
 ###### Author(s): @kaihanga
@@ -260,7 +253,6 @@ This file cannot be edited by the Klipper web interface as it's read-only.
 ##### References
 ["Wow. Downloaded mailsail, commented out the pause and resume and then uploaded it ..."](https://discord.com/channels/1158578009121501267/1293894304711970878/1320213727114563646)
 
-<a name="how-to-backup-the-printer-configuration-and-macros"></a>
 ## How to backup the printer configuration and macros?
 
 ###### Author(s): @kaihanga
@@ -276,7 +268,6 @@ Minimal 3DP - [Klipper Backups! A New Guide to Using Klipper Macros to Backup Yo
 ##### References
 [I'd recommend watching both as they give overlapping but slightly different insights.](https://discord.com/channels/1158578009121501267/1246637611674636379/1320989736336359456)
 
-<a name="enclosure-installation-tips"></a>
 ## Enclosure installation tips
 
 ###### Author(s): @kaihanga
@@ -290,7 +281,6 @@ Minimal 3DP - [Klipper Backups! A New Guide to Using Klipper Macros to Backup Yo
 - Start printing the reinforcements
   - Suggest heat deflective filament, as it's inside. The PETG-CF that comes with the printer should be fine.
 
-<a name="how-to-install-display-at-top"></a>
 ## How to install Display at top?
 
 ###### Author(s): @kaihanga
@@ -317,14 +307,12 @@ The cables two cables needed for the display don't easily reach the top.
 	1. Optional - Zip tie cables
 	2. Reattach bottom right panel
 
-<a name ="is-there-a-community-to-share-and-learn-about-others-experiences"></a>
 ## Is there a community to share and learn about other's experience?
 
 There's an "official" discord with an active community. [Click here for an invitation](https://discord.gg/rVUKaBAGKC).
 
 [Information from Peopoly about the community](https://peopoly.net/blogs/news/join-peopoly-discord-community)
 
-<a name="pet-cf-profile"></a>
 ## PET-CF Profile
 
 ###### Author(s): @kaihanga
@@ -338,7 +326,6 @@ There's an "official" discord with an active community. [Click here for an invit
 ##### References
 ["Thanks for a reminder. My max volumetric is 30, flow ratio is .9, PA is 0.022..."](https://discord.com/channels/1158578009121501267/1167525094839562321/1319017426603479060)
 
-<a name="rails-and-carriages"></a>
 ## Rails and Carriages
 
 ###### Author(s): @kaihanga
