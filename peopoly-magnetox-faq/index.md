@@ -30,7 +30,7 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 - [How to install Display at top?](#how-to-install-display-at-top)
 
 # Support & Community
-- [Is there a community to share and learn about other's experience?](#is-there-a-community-to-share-and-learn-about-others-experiences)
+- [Is there a community to share and learn about other's experiences?](#is-there-a-community-to-share-and-learn-about-others-experiences)
 
 # Filament Profiles
 - [PET-CF Profile](#pet-cf-profile)
@@ -307,7 +307,7 @@ The cables two cables needed for the display don't easily reach the top.
 	1. Optional - Zip tie cables
 	2. Reattach bottom right panel
 
-## Is there a community to share and learn about other's experience?
+## Is there a community to share and learn about other's experiences?
 
 There's an "official" discord with an active community. [Click here for an invitation](https://discord.gg/rVUKaBAGKC).
 
