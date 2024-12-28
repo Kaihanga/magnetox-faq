@@ -1,5 +1,3 @@
-# Peopoly Magneto X Frequently Asked Questions
-
 ###### Last Updated: {{ "now" | date: "%Y-%m-%d %H:%M" }}
 
 # Notes
