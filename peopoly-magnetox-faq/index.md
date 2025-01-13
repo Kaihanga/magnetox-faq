@@ -24,6 +24,7 @@ Read your manual, confirm what you're doing, everything's at your own risk.
 - [Received a timeout in Orcaslicer when sending a print?](#received-a-timeout-in-orcaslicer-when-sending-a-print)
 - [How to fix Pause and Resume](#how-to-fix-pause-and-resume)
 - [How to backup the printer configuration and macros?](#how-to-backup-the-printer-configuration-and-macros)
+- [Troubleshooting the 24v side of the electronics](#troubleshooting-the-24v-side-of-the-electronics)
 
 # Enclosure
 - [Enclosure installation tips](#enclosure-installation-tips)
@@ -267,6 +268,15 @@ Minimal 3DP - [Klipper Backups! A New Guide to Using Klipper Macros to Backup Yo
 
 ##### References
 [I'd recommend watching both as they give overlapping but slightly different insights.](https://discord.com/channels/1158578009121501267/1246637611674636379/1320989736336359456)
+
+## Troubleshooting the 24v side of the electronics
+
+###### Author(s): @kaihanga
+
+Symptoms of a failure include part of the printer system powering off. Troubleshooting includes isolating where the failure's ocurring. For one user it was a failure of the [Octopus control board](https://biqu.equipment/collections/control-board/products/bigtreetech-octopus-v1-1) in the printer's base. As the printer was still under warranty, Peoply sent a new card. Peoply sent the following [MagnetoX 24V power supply troubleshooting steps](files/MagnetoX_24V_power_supply_troubleshooting_steps-1.pdf) to figure out the cause.
+
+##### References
+[I started a print and everything on the 24v side powered off.](https://discord.com/channels/1158578009121501267/1246637611674636379/1328159486019375165)
 
 ## Enclosure installation tips
 
