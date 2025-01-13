@@ -273,7 +273,7 @@ Minimal 3DP - [Klipper Backups! A New Guide to Using Klipper Macros to Backup Yo
 
 ###### Author(s): @kaihanga
 
-Symptoms of a failure include part of the printer system powering off. Troubleshooting includes isolating where the failure's ocurring. For one user it was a failure of the [Octopus control board](https://biqu.equipment/collections/control-board/products/bigtreetech-octopus-v1-1) in the printer's base. As the printer was still under warranty, Peoply sent a new card. Peoply sent the following [MagnetoX 24V power supply troubleshooting steps](files/MagnetoX_24V_power_supply_troubleshooting_steps-1.pdf) to figure out the cause.
+Symptoms of a failure include part of the printer system powering off. Troubleshooting includes isolating where the failure's ocurring. For one user it was a failure of the [Octopus control board](https://biqu.equipment/collections/control-board) in the printer's base. As the printer was still under warranty, Peoply sent a new card. Peoply sent the following [MagnetoX 24V power supply troubleshooting steps](files/MagnetoX_24V_power_supply_troubleshooting_steps-1.pdf) to figure out the cause.
 
 ##### References
 [I started a print and everything on the 24v side powered off.](https://discord.com/channels/1158578009121501267/1246637611674636379/1328159486019375165)
